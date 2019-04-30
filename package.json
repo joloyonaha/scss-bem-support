@@ -3,7 +3,7 @@
   "displayName": "SCSS BEM Support",
   "description": "BEM support for SCSS files",
   "version": "0.0.1",
-  "publisher": "Jolo Yonaha",
+  "publisher": "joloyonaha",
   "engines": { "vscode": "^1.33.0" },
   "categories": ["Other"],
   "contributes": {

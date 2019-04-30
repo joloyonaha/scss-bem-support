@@ -1,0 +1,16 @@
+{
+  "name": "scss-bem-support",
+  "displayName": "SCSS BEM Support",
+  "description": "BEM support for SCSS files",
+  "version": "0.0.1",
+  "publisher": "Jolo Yonaha",
+  "engines": { "vscode": "^1.33.0" },
+  "categories": ["Other"],
+  "contributes": {
+    "grammars": [{
+      "injectTo": ["source.css.scss"],
+      "scopeName": "bem.support.scss",
+      "path": "./syntaxes/bemSupport.tmLanguage.json"
+    }]
+  }
+}

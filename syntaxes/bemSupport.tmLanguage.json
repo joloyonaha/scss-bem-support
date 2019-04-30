@@ -1,0 +1,19 @@
+{
+  "scopeName": "bem.support.scss",
+  "injectionSelector": "L:meta.property-list",
+	"patterns": [{ "include": "#bem_support" }],
+	"repository": {
+		"bem_support": {
+			"patterns": [
+        {
+          "name": "bem.support.element.scss",
+          "match": "&__\\S*"
+        },
+        {
+          "name": "bem.support.modifier.scss",
+          "match": "&--\\S*"
+        }
+      ]
+		}
+	}
+}

@@ -4,6 +4,7 @@
   "description": "BEM support for SCSS files",
   "version": "0.0.1",
   "publisher": "joloyonaha",
+  "icon": "assets/bem.png",
   "engines": { "vscode": "^1.33.0" },
   "categories": ["Other"],
   "repository": { "url": "https://github.com/joloyonaha/scss-bem-support" },

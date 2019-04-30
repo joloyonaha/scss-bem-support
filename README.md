@@ -2,6 +2,8 @@
 
 This extension adds TextMate scope to BEM element and modifier which can be useful in syntax highlighting.
 
+![screenshot](https://github.com/joloyonaha/scss-bem-support/blob/master/assets/screenshot.png)
+
 ## BEM – Block Element Modifier
 
 ```scss

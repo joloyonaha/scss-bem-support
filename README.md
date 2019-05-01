@@ -2,7 +2,7 @@
 
 This extension adds TextMate scope to BEM element and modifier which can be useful in syntax highlighting.
 
-![screenshot](https://raw.githubusercontent.com/joloyonaha/scss-bem-support/master/assets/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/joloyonaha/scss-bem-support/master/assets/screenshot-v0.0.5.png)
 
 ## BEM – Block Element Modifier
 
@@ -18,6 +18,18 @@ More info about BEM [here](http://getbem.com/).
 ## TextMate Scope
 
 Go to `Keyboard Shortcuts` then search for `Developer: Inspect TM Scopes`.
+
+## Changelog
+
+**v0.0.5**
+- Add `entity.other.attribute-name.class.css` as fallback scope
+
+**v0.0.4**
+- Add `bem.support.element.scss` scope
+- Add `bem.support.modifier.scss` scope
+
+**v0.0.3**
+- Initial release
 
 ## Feedback
 

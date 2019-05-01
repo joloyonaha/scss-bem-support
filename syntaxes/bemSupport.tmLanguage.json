@@ -1,17 +1,23 @@
 {
   "scopeName": "bem.support.scss",
-  "injectionSelector": "L:meta.property-list",
-	"patterns": [{ "include": "#bem_support" }],
-	"repository": {
+  "injectionSelector": "L:source.css.scss",
+  "patterns": [{ "include": "#bem_support" }],
+  "repository": {
 		"bem_support": {
 			"patterns": [
         {
-          "name": "bem.support.element.scss",
-          "match": "&__\\S*"
+          "match": "&__\\S*",
+          "name": "entity.other.attribute-name.class.css",
+          "captures": {
+            "0": { "name": "bem.support.element.scss" }
+          }
         },
         {
-          "name": "bem.support.modifier.scss",
-          "match": "&--\\S*"
+          "match": "&--\\S*",
+          "name": "entity.other.attribute-name.class.css",
+          "captures": {
+            "0": { "name": "bem.support.modifier.scss" }
+          }
         }
       ]
 		}

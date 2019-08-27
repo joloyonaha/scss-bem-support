@@ -6,17 +6,19 @@
 		"bem_support": {
 			"patterns": [
         {
-          "match": "&__\\S*",
+          "match": "(&)(__[-a-zA-Z_0-9]*)",
           "name": "entity.other.attribute-name.class.css",
           "captures": {
-            "0": { "name": "bem.support.element.scss" }
+            "1": { "name": "entity.name.tag.reference.scss" },
+            "2": { "name": "bem.support.element.scss" }
           }
         },
         {
-          "match": "&--\\S*",
+          "match": "(&)(--[-a-zA-Z_0-9]*)",
           "name": "entity.other.attribute-name.class.css",
           "captures": {
-            "0": { "name": "bem.support.modifier.scss" }
+            "1": { "name": "entity.name.tag.reference.scss" },
+            "2": { "name": "bem.support.modifier.scss" }
           }
         }
       ]

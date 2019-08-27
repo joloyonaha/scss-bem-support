@@ -21,6 +21,10 @@ Go to `Keyboard Shortcuts` then search for `Developer: Inspect TM Scopes`.
 
 ## Changelog
 
+**v0.0.6**
+- Preserve ampersand tokenization
+- Capture dash, underscore, letters and numbers only
+
 **v0.0.5**
 - Add `entity.other.attribute-name.class.css` as fallback scope
 
@@ -34,6 +38,10 @@ Go to `Keyboard Shortcuts` then search for `Developer: Inspect TM Scopes`.
 ## Feedback
 
 For comments, questions and suggestions, go [here](https://github.com/joloyonaha/scss-bem-support/issues).
+
+## Contributors
+
+- Danny McGee - [@dannymcgee](https://github.com/dannymcgee)
 
 ## License
 

@@ -21,6 +21,9 @@ Go to `Keyboard Shortcuts` then search for `Developer: Inspect TM Scopes`.
 
 ## Changelog
 
+**v0.0.7**
+- Add support for `&_modifier` or `&_key_value` notation
+
 **v0.0.6**
 - Preserve ampersand tokenization
 - Capture dash, underscore, letters and numbers only
@@ -41,7 +44,8 @@ For comments, questions and suggestions, go [here](https://github.com/joloyonaha
 
 ## Contributors
 
-- Danny McGee - [@dannymcgee](https://github.com/dannymcgee)
+- Danny McGee ([@dannymcgee](https://github.com/dannymcgee))
+- Pavel Cherdantsev ([@chepash](https://github.com/chepash))
 
 ## License
 

@@ -3,10 +3,10 @@
   "injectionSelector": "L:source.css.scss",
   "patterns": [{ "include": "#bem_support" }],
   "repository": {
-		"bem_support": {
-			"patterns": [
+    "bem_support": {
+      "patterns": [
         {
-          "match": "(&)(__[-a-zA-Z_0-9]*)",
+          "match": "(?<!\\/\\/[^\\r\\n]*?)(&)(__[\\w-]*)",
           "name": "entity.other.attribute-name.class.css",
           "captures": {
             "1": { "name": "entity.name.tag.reference.scss" },
@@ -14,7 +14,7 @@
           }
         },
         {
-          "match": "(&)(--[-a-zA-Z_0-9]*)",
+          "match": "(?<!\\/\\/[^\\r\\n]*?)(&)(--|_)([\\w-]*)",
           "name": "entity.other.attribute-name.class.css",
           "captures": {
             "1": { "name": "entity.name.tag.reference.scss" },
@@ -22,14 +22,15 @@
           }
         },
         {
-          "match": "(&)(_[-a-zA-Z_0-9]*)",
+          "match": "(?<!\\/\\/[^\\r\\n]*?)(&)(::?)([\\w-]*)",
           "name": "entity.other.attribute-name.class.css",
           "captures": {
             "1": { "name": "entity.name.tag.reference.scss" },
-            "2": { "name": "bem.support.element.scss" }
+            "2": { "name": "bem.support.element.scss" },
+            "3": { "name": "bem.support.element.scss" }
           }
         }
       ]
-		}
-	}
+    }
+  }
 }

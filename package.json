@@ -2,7 +2,7 @@
   "name": "scss-bem-support",
   "displayName": "SCSS BEM Support",
   "description": "BEM support for SCSS files",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "joloyonaha",
   "icon": "assets/bem.png",
   "engines": { "vscode": "^1.33.0" },

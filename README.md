@@ -21,6 +21,9 @@ Go to `Keyboard Shortcuts` then search for `Developer: Inspect TM Scopes`.
 
 ## Changelog
 
+**v0.0.8**
+- Fix highlighting for single-line comment
+
 **v0.0.7**
 - Add support for `&_modifier` or `&_key_value` notation
 
